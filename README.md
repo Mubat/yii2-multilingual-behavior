@@ -74,7 +74,7 @@ requireTranslations | If this property is set to true required validators will b
 dynamicLangClass | Dynamically create translation model class. If true, the translation model class will be generated on runtime with the use of the eval() function so no additionnal php file is needed
 langClassName | The name of translation model class. Dafault value is model name + Lang
 **languages** | Available languages. It can be a simple array: ```['fr', 'en']``` or an associative array: ```['fr' => 'Français', 'en' => 'English']```
-**defaultLanguage** | The default language
+**defaultLanguage** | The default language. You can specify this option in *params.php* file to use single value in all behaviors
 **langForeignKey** | Name of the foreign key field of the translation table related to base model table.
 **tableName** | The name of the translation table
 **attributes** | Multilingual attributes
